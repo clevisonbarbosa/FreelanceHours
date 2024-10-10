@@ -8,15 +8,15 @@ use Illuminate\Database\Eloquent\Model;
 
 class Project extends Model
 {
-    /** @use HasFactory<\Database\Factories\ProjectsFactory> */
+    /** @use HasFactory<\Database\Factories\ProjectFactory> */
     use HasFactory;
 
-    public function casts(): array
+    public function casts()
     {
         return [
             'tech_stack' => 'array',
             'status' => ProjectStatus::class,
-            'end_date' => 'datetime',
+            'ends_at' => 'datetime',
         ];
     }
 

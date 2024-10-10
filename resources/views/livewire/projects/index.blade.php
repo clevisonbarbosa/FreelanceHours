@@ -1,7 +1,7 @@
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-    @foreach($this->projects as $project)
+<div class="grid grid-cols-2 gap-4">
+    @foreach ($this->projects as $project)
         <a href="{{ route('projects.show', $project) }}">
-            <x-projects.card-simple :$project/>
+            <x-projects.simple-card :$project />
         </a>
     @endforeach
 </div>
