@@ -31,4 +31,6 @@ npm run dev
 ## Inicie o servidor:
 php artisan serve
 
+![Descrição da Imagem](image/2024-10-10%2017-36-52.png)
 
+![Descrição da Imagem](image/2024-10-10%2017-37-00.png)
